@@ -8,7 +8,7 @@ body{
 }
 .head{
 	height:120px;
-	background:#ffffff;
+	background:#534e4e;
 	padding-left:20px;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -51,7 +51,7 @@ body{
 	white-space:nowrap;
 	line-height:50px;
 	font-size:20px;
-	color:#686868;
+	color:#000000;
 }
 .kf{
 	text-align:center;
@@ -64,7 +64,7 @@ body{
 	padding-left:25px;
 	color:#ff5d90;
 } .hui em{color:#545454;;}
-.hui a{color:#ff5d90;}
+.hui a{color:#ff9d9d;}
 .cesu{
 	width:590px;
 	margin:0  auto;
@@ -87,11 +87,11 @@ body{
 	align-items: center;
 }
 .miaoinpt{
-	color:#686868;
+	color:#000000;
 	font-size:26px;
 	height:53px;
-	border:2px solid #cfcfcf;
-	background:#f0efef;
+	border:2px solid #9cee65;
+	background:#9cf599;
 	text-align:center;
 	border-radius: 5px;
 	line-height:52px;
@@ -100,7 +100,7 @@ body{
 .miaoinpt2{width:300px;}
 .dw{
 	display:block;
-	color:#fff;
+	color:#5bff63;
 	height:57px;
 	border-radius: 5px;
 	text-align:center;
