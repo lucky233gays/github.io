@@ -14,22 +14,7 @@
     <link rel="stylesheet" rev="stylesheet" href="files/global.css" type="text/css">
     <link rel="stylesheet" rev="stylesheet" href="files/index.css" type="text/css">
     <link href="files/swiper.min.css" rel="stylesheet">
-    <script>
-        function detectDevTools() {
-            // 窗口宽高差值检测
-            const widthThreshold = 160;
-            const heightThreshold = 160;
-            setInterval(() => {
-                const widthDiff = window.outerWidth - window.innerWidth;
-                const heightDiff = window.outerHeight - window.innerHeight;
-                if (widthDiff > widthThreshold || heightDiff > heightThreshold) {
-                    window.location.href = 'https://www.baidu.com';
-                }
-            }, 100);
-        }
 
-        window.onload = detectDevTools;
-    </script>
     <script src="files/swiper.min.js"></script>
 
     <link type="text/css" rel="stylesheet" href="files/chatStyle.css">
